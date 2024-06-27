@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.chordify" />
+                  <option name="mobileSdkAppId" value="1:551680465332:android:dd5b05a6291938bc3bbae1" />
+                  <option name="projectId" value="chordify-94b00" />
+                  <option name="projectNumber" value="551680465332" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

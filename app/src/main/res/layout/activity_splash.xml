@@ -29,10 +29,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="~Music lives within.. !!"
-        android:textColor="#E6D5D0DC"
-        android:textSize="30sp"
+        android:textColor="@color/off_White"
+        android:textSize="28sp"
         android:textStyle="italic"
-        android:textFontWeight="@integer/material_motion_duration_long_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,14 +42,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="414dp" />
+        app:layout_constraintGuide_begin="425dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to Chordify !"
-        android:textColor="#F19117"
+        android:textColor="@color/orange"
         android:textStyle="bold"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
