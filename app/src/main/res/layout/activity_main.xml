@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="197dp"
-        android:layout_height="164dp"
+        android:layout_width="270dp"
+        android:layout_height="238dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="87dp" />
+        app:layout_constraintGuide_begin="97dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -89,12 +89,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="225dp" />
+        app:layout_constraintGuide_end="221dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="146dp" />
+        app:layout_constraintGuide_end="145dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

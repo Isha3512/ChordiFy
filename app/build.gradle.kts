@@ -73,4 +73,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //intuit sdp
+    implementation ("com.intuit.sdp:sdp-android:1.1.1")
+
+    //intuit ssp
+    implementation("com.intuit.ssp:ssp-android:1.1.1")
 }
