@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg2"
-    android:padding="@dimen/_10sdp"
+    android:padding="@dimen/_20sdp"
+    android:clipToPadding="false"
     tools:context=".SignUpActivity">
 
     <TextView
@@ -29,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="305dp" />
+        app:layout_constraintGuide_begin="260dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -45,13 +46,16 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="24dp"
-        android:hint=" Enter your Email Address "
-        android:textSize="@dimen/_20ssp"
+        android:background="@drawable/input_field_shape"
+        android:hint="  Enter your Email Address "
+        android:padding="@dimen/_8sdp"
+        android:inputType="textEmailAddress"
         android:textColor="@color/pink"
         android:textColorHint="@color/pink"
-        android:background="@drawable/input_field_shape"
-        android:inputType="textEmailAddress"
+        android:textSize="@dimen/_18ssp"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -60,13 +64,16 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        android:textSize="@dimen/_18ssp"
-        android:textColor="@color/pink"
-        android:hint=" Enter a strong Password "
-        android:textColorHint="@color/pink"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/input_field_shape"
+        android:hint="Enter a strong Password "
         android:inputType="textPassword"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/pink"
+        android:textColorHint="@color/off_White"
+        android:textSize="@dimen/_18ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,5 +84,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="483dp" />
+        app:layout_constraintGuide_begin="446dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input_field_shape"
+        android:hint=" Confirm your password "
+        android:inputType="textPassword"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/off_White"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <Button
+        android:id="@+id/btnCreatAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text=" Submit "
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/off_White"
+        android:background="@drawable/btn_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
