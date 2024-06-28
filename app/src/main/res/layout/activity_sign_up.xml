@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
         android:layout_marginStart="8dp"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/etPass"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
         android:layout_marginStart="8dp"
@@ -87,7 +87,7 @@
         app:layout_constraintGuide_begin="446dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/etRePass"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
         android:layout_marginStart="8dp"
@@ -101,7 +101,7 @@
         android:textSize="@dimen/_18ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPass" />
 
     <Button
         android:id="@+id/btnCreatAcc"
@@ -115,5 +115,5 @@
         android:background="@drawable/btn_shape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/etRePass" />
 </androidx.constraintlayout.widget.ConstraintLayout>
