@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miProfile"
+        android:title="View your Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_profile" />
+    <item
+        android:id="@+id/miFavorites"
+        android:title="View Favorites"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_favo"/>
+    <item
+        android:id="@+id/miSettings"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_favo"/>
+    <item
+        android:id="@+id/miCloseApp"
+        android:title="Close App"
+        app:showAsAction="never"/>
+</menu>

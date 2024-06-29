@@ -46,6 +46,10 @@ class SingInActivity : AppCompatActivity() {
                         val name=mauth.currentUser?.displayName.toString()
                         Toast.makeText(this, "Welcome $name !",Toast.LENGTH_SHORT)
                             .show()
+                        Intent(this, HomeActivity::class.java).also{it2->
+                            startActivity(it2)
+                            finish();
+                        }
                     }
                     else
                     {
