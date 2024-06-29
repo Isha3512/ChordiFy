@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_sign_in"
         android:text=" Login using Email "
+        android:textSize="@dimen/_18ssp"
         android:padding="8sp"
         android:textAllCaps="false"
         android:textColor="@color/off_White"
@@ -56,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" Login using Phone "
+        android:textSize="@dimen/_18ssp"
         android:textAllCaps="false"
         android:padding="8sp"
         android:textColor="@color/off_White"
@@ -65,10 +67,11 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/btSignIn"
+        android:id="@+id/btSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" New User? Sign Up ! "
+        android:textSize="@dimen/_18ssp"
         android:padding="8sp"
         android:textColor="@color/off_White"
         android:textAllCaps="false"
